@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dlg_addToOrder</class>
+ <widget class="QDialog" name="dlg_addToOrder">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>222</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Добавить в заявку</string>
+  </property>
+  <layout class="QVBoxLayout" name="vLayout_addtr">
+   <item>
+    <widget class="QLabel" name="lbl_name">
+     <property name="text">
+      <string>name</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="hLayout_prices">
+     <item>
+      <widget class="QLabel" name="lbl_realPrice">
+       <property name="text">
+        <string>real price</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="lbl_discPrice">
+       <property name="text">
+        <string>disc price</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbl_expDate">
+     <property name="text">
+      <string>exp date</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbl_manufacturer">
+     <property name="text">
+      <string>manufacturer</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbl_vendor">
+     <property name="text">
+      <string>vendor</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="hLayout_addtr">
+     <item>
+      <widget class="QLabel" name="lbl_quantity">
+       <property name="text">
+        <string>Количество</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_quantity"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_add">
+       <property name="text">
+        <string>Добавить</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_cancel">
+       <property name="text">
+        <string>Отмена</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
